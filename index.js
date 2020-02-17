@@ -4,7 +4,7 @@ function scuberGreetingForFeet(distance){
   } else if (distance > 2000 && distance <= 2500){
     return 'I will gladly take your thirty bucks.';
   } else if (distance > 2500){
-    return 'No can do.'
+    return 'No can do.';
   }
 }
  
@@ -15,8 +15,9 @@ function ternaryCheckCity(city){
 function switchOnCharmFromTip(tip){
   switch(tip){
     case 'generous':
-      return 'Thank you so much.'
-    case
+      return 'Thank you so much.';
+    case 'not as generous':
+      return 'Thank you.';
   }
 }
   
