@@ -7,10 +7,10 @@ function scuberGreetingForFeet(distance){
     return 'No can do.'
   }
 }
-
  
 function ternaryCheckCity(){
   // Write your code here!
+  
 }
 
 function switchOnCharmFromTip(){
