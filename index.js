@@ -14,8 +14,10 @@ function ternaryCheckCity(city){
 
 function switchOnCharmFromTip(tip){
   switch(tip){
-    case 
+    case (tip = "generous"):
+      return 'Thank you so much.'
   }
+}
   
   describe('switchOnCharmFromTip()', function () {
     it('should return "Thank you so much." if the tip is generous', function () {
@@ -29,4 +31,3 @@ function switchOnCharmFromTip(tip){
     it('should return "Bye." if anything else', function () {
       expect(switchOnCharmFromTip('thanks for everything')).to.equal('Bye.');
     });
-}
